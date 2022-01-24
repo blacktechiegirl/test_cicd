@@ -2,7 +2,7 @@ const express = require ('express');
 const app = express();
 
 app.get('/',(req,res)=>{
-    res.send("Welcome to Backend Development")
+    res.send("Welcome to CICD")
 });
 
 const port = process.env.port || 3000;
